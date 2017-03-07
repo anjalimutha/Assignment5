@@ -39,7 +39,7 @@ QUnit.test('get ok test', function(assert) {
 // QUnit test functions for Truck DataStore
 QUnit.test('createOrderTest ok test', function(assert) {
     var order = {
-        emailAddress: 'devnigam24@gmail.com',
+        emailAddress: 'anjali@gmail.com',
         coffee: 'decaf'
     };
     assert.deepEqual(myTruck.createOrderTest(order), order, 'Passed!');
@@ -50,7 +50,7 @@ QUnit.test('printOrdersTest ok test', function(assert) {
 });
 
 QUnit.test('printOrdersTest ok test', function(assert) {
-    assert.equal(myTruck.deliverOrderTest('devnigam24@gmail.com'), undefined, 'Passed!');
+    assert.equal(myTruck.deliverOrderTest('anjali@gmail.com'), undefined, 'Passed!');
 });
 
 
